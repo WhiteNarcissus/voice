@@ -10,4 +10,10 @@ public class DemoAnnotationService {
     @Action(name = "注解式 add方法")
     public void add(){}
 
+
+    @Action(name = "注解式 add2方法")
+    public void add2(){}
+
+    @Action
+    public void add3(){}
 }
